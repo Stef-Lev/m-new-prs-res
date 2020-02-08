@@ -22,20 +22,20 @@ $(function () {
 });
 
 
-//Arrow button animation
+// //Arrow button animation
 
-$(function () {
-    setTimeout('topArrow()');
-});
+// $(function () {
+//     setTimeout('topArrow()');
+// });
 
-function topArrow() {
-    $('#more').animate({
-        marginBottom: '-=10px'
-    }, 800).animate({
-        marginBottom: '+=10px'
-    }, 800);
-    setTimeout('topArrow()', 1600);
-}
+// function topArrow() {
+//     $('#more').animate({
+//         marginBottom: '-=10px'
+//     }, 800).animate({
+//         marginBottom: '+=10px'
+//     }, 800);
+//     setTimeout('topArrow()', 1600);
+// }
 
 $(".meter > span").each(function () {
     $(this)
