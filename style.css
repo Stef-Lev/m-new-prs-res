@@ -12,6 +12,10 @@ h2,h3,h4,h5 {
   margin-bottom: 20px;
   padding-top: 10px;
 }
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /*---------
  Hero Intro
@@ -71,6 +75,10 @@ button.begin {
     left: 0;
     right: 0;
 }
+button.begin:hover {
+  color: rgb(12, 147, 196);
+
+}
 /*---------
  Navigation Bar
 ---------*/
@@ -84,8 +92,12 @@ a.nav-link {
     padding-right: 15px!important;
     color: white!important;
 }
+a.nav-link:hover {
+  color: rgb(12, 147, 196)!important;
+}
+
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.mx-0 {
-    background-color: rgb(1, 16, 20)!important;
+    background-color: rgb(30, 33, 34)!important;
 }
 
 /*---------
