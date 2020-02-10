@@ -186,11 +186,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.mx-0 {
 #about h1 {
     color: rgb(5, 73, 98);
     font-weight: 700;
-    padding: 100px 0 30px 0;
 }
-#about p {
-    padding: 30px 0 30px 0;
-}
+
 
 img#myphoto {
     border-radius: 50%;
@@ -240,7 +237,7 @@ Skills
   background-size: cover;
 }
 .meter {
-  height: 28px;  /* Can be anything */
+  height: 28px; 
 	position: relative;
 	background: rgb(182, 182, 182);
 	-moz-border-radius: 25px;
@@ -264,6 +261,8 @@ Skills
     inset 0 -2px 6px rgba(0,0,0,0.4);
   position: relative;
   overflow: hidden;
+/* This is the skill level */
+  width: 23%;
 }
 
 div.myskills {
@@ -271,34 +270,26 @@ div.myskills {
 }
 
 
-/* Media Queries for Responsive
-Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    div.between {
-        height: 20vh;
-    }
- }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  
-    div.between {
-        height: 30vh;
-    }
+/* Media Queries */
+@media (max-width: 576px) { 
+    
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    div.between {
-        height: 39vh;
-    }
+@media (min-width: 576px) { 
+    
  }
 
-/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 768px) {  
+    
+}
+
+
+@media (min-width: 992px) { 
+    
+ }
+
+
 @media (min-width: 1200px) { 
-    div.between {
-        height: 39vh;
-    }
+    
  }
