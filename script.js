@@ -2,8 +2,8 @@
 
 //->Hero scrolldown
 
-$(function () {
-    $('#more').on('click', function (e) {
+$(function() {
+    $('#more').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $("#navigator").offset().top
@@ -12,8 +12,8 @@ $(function () {
 });
 
 //->About scrolldown
-$(function () {
-    $('#aboutBtn').on('click', function (e) {
+$(function() {
+    $('#aboutBtn').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $("#work-exp").offset().top
@@ -25,7 +25,7 @@ $(function () {
 
 // //Arrow button animation
 
-$(function () {
+$(function() {
     setTimeout('topArrow()');
 });
 
@@ -38,7 +38,7 @@ function topArrow() {
     setTimeout('topArrow()', 1600);
 }
 
-$(".meter > span").each(function () {
+$(".meter > span").each(function() {
     $(this)
         .data("origWidth", $(this).width())
         .width(0)
