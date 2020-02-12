@@ -32,6 +32,13 @@ h2 {
 h3 {
     font-size: 1.5rem;
 }
+.company {
+    font-style: italic;
+}
+.exp-duration {
+    font-style: italic;
+}
+
 
 
 /*---------
@@ -188,6 +195,12 @@ button.navbar-toggler.collapsed {
 button.navbar-toggler {
     padding: 12px 0 12px 0;
 }
+
+/* .new-section {
+    height:500px;
+    margin:-500px 0 0;
+  }
+   */
 
 
 /*---------
@@ -380,8 +393,8 @@ Certificates
 
 #certifications img{
     border-radius: 10px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 
 
@@ -441,30 +454,30 @@ Contact
 }
 
 
-
 /* Media Queries */
 
 @media (max-width: 576px) {
-    * {
-        font-size: 0.96em;
-    }
-    p {
-        font-size: 1em;
-    }
+    
     .institution {display: none;
 
     }
-
-}
-
-@media (min-width: 576px) {
     
+    .intro-paragraph {
+        font-size: 0.9rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1.95rem;
+    }
+    h3 {
+        font-size: 1.35rem; ;
+    }
+
 }
 
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
+/* @media (min-width: 576px) and (max-width: 768px) {
+    
+} */

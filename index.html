@@ -42,25 +42,25 @@
                     <a class="nav-link" href="#" id="aboutBtn">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work experience</a>
+                    <a class="nav-link" href="#" id="workExpBtn">Work experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
+                    <a class="nav-link" href="#" id="eduBtn">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Awards</a>
+                    <a class="nav-link" href="#" id="awardBtn">Awards</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#" id="skillBtn">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#certifications">Certifications</a>
+                    <a class="nav-link" href="#certifications" id="certBtn">Certifications</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Info</a>
+                    <a class="nav-link" href="#" id="contBtn">Contact Info</a>
                 </li>
             </ul>
         </div>
@@ -71,7 +71,8 @@
         <div class="container ">
             <h1>Stefanos Leventis</h1>
             <img id="myphoto" src="./images/stephoto.jpg" class="text-center mx-auto">
-            <p class="col-8 text-center mx-auto">I am a former digital marketer with a problem-solving mindset and a
+            <p class="col-8 text-center mx-auto intro-paragraph">I am a former digital marketer with a problem-solving
+                mindset and a
                 huge passion about technology and automation seeking to apply my new web development skills to an entry
                 level position as a Front-end developer. During my career I have solved
                 business problems by using my analytical skills and some... imagination. I like working in small teams
@@ -85,8 +86,8 @@
         <div class="container text-left">
             <div class="row experience">
                 <div class="col-md-4">
-                    <h3>Freelancer</h3>
-                    <p>November 2019-Today</p>
+                    <h3 class="company">Freelancer</h3>
+                    <p class="exp-duration">November 2019-Today</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Junior Front-End Web Developer</h3>
@@ -97,8 +98,8 @@
             </div>
             <div class="row experience">
                 <div class="col-md-4">
-                    <h3>Freelancer</h3>
-                    <p>May 2019-September 2019</p>
+                    <h3 class="company">Freelancer</h3>
+                    <p class="exp-duration">May 2019-September 2019</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Digital Marketer</h3>
@@ -110,8 +111,8 @@
             </div>
             <div class="row experience">
                 <div class="col-md-4">
-                    <h3>Enalios-Oceanos Publications</h3>
-                    <p>June 2017-February 2019</p>
+                    <h3 class="company">Enalios-Oceanos Publications</h3>
+                    <p class="exp-duration">June 2017-February 2019</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Sales Coordinator</h3>
@@ -125,8 +126,8 @@
             </div>
             <div class="row experience">
                 <div class="col-md-4">
-                    <h3>Cosmote E-Value (OTE Group)</h3>
-                    <p>August 2012-May 2017</p>
+                    <h3 class="company">Cosmote E-Value (OTE Group)</h3>
+                    <p class="exp-duration">August 2012-May 2017</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Reporting Officer-VBA Developer</h3>
@@ -142,8 +143,8 @@
             </div>
             <div class="row experience">
                 <div class="col-md-4">
-                    <h3>Enalios-Oceanos Publications</h3>
-                    <p>September 2009-September 2011</p>
+                    <h3 class="company">Enalios-Oceanos Publications</h3>
+                    <p class="exp-duration">September 2009-September 2011</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Translator (English to Greek)</h3>
@@ -160,8 +161,17 @@
         <div class="container text-left">
             <div class="row experience">
                 <div class="col-md-4 ">
-                    <h3>National & Kapodistrian University of Athens</h3>
-                    <p>January 2019-July 2019</p>
+                    <h3 class="company">Social Hackers Academy</h3>
+                    <p class="exp-duration">November 2019-Today</p>
+                </div>
+                <div class="col-md-8">
+                    <h3>Full Stack Web Development Course</h3>
+                </div>
+            </div>
+            <div class="row experience">
+                <div class="col-md-4 ">
+                    <h3 class="company">National & Kapodistrian University of Athens</h3>
+                    <p class="exp-duration">January 2019-July 2019</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Digital marketing e-learning course</h3>
@@ -169,8 +179,8 @@
             </div>
             <div class="row experience">
                 <div class="col-md-4">
-                    <h3>Technological Educational Insitute of Athens</h3>
-                    <p>2004-2009</p>
+                    <h3 class="company">Technological Educational Insitute of Athens</h3>
+                    <p class="exp-duration">2004-2009</p>
                 </div>
                 <div class="col-md-8">
                     <h3>Dental technician - Bachelor's degree</h3>
@@ -311,7 +321,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-flex myskills">
+            <div class="row myskills">
                 <div class="col-md-4">
                     <h4>Spanish</h4>
                 </div>
@@ -324,114 +334,117 @@
         </div>
     </section>
 
-    <!-- This is wrong -->
-    <section id="certifications" class="container-fluid text-center">
-        <h2>Certifications</h2>
 
-        <div class="container certs row d-flex">
-            <div class="col-3">
-                <img src="./images/icon-linkedin.png">
-            </div>
-            <div class=" col-9 text-left">
-                <h3 class="certificate">HTML</h3>
-                <p class="institution">Linkedin Skill Assessments</p>
+    <section id="certifications" class="container-fluid text-center ">
+        <a name=></a>
+        <h2 class="new-section">Certifications</h2>
+        <div class="container-fluid d-flex  flex-column align-items-center">
 
-            </div>
-        </div>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-linkedin.png">
+                </div>
+                <div class=" col-8 text-left">
+                    <h3 class="certificate">HTML</h3>
+                    <p class="institution">Linkedin Skill Assessments</p>
 
-        <div class="container certs row d-flex">
-            <div class="col-3">
-                <img src="./images/icon-linkedin.png">
+                </div>
             </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Cascading Style Sheets (CSS)</h3>
-                <p class="institution">Linkedin Skill Assessment</p>
 
-            </div>
-        </div>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-linkedin.png">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Cascading Style Sheets (CSS)</h3>
+                    <p class="institution">Linkedin Skill Assessment</p>
 
-        <div class="container certs row d-flex">
-            <div class="col-3">
-                <img src="./images/icon-linkedin.png">
+                </div>
             </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Microsoft Excel</h3>
-                <p class="institution">Linkedin Skill Assessment</p>
 
-            </div>
-        </div>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-linkedin.png">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Microsoft Excel</h3>
+                    <p class="institution">Linkedin Skill Assessment</p>
 
-        <div class="container certs row d-flex">
-            <div class="col-3">
-                <img src="./images/icon-uoa.jpeg">
+                </div>
             </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">HTML and Javascript, the first steps to Web Development</h3>
-                <p class="institution">National & Kapodistrian University of Athens</p>
 
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-uoa.jpeg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">HTML and Javascript, the first steps to Web Development</h3>
+                    <p class="institution">National & Kapodistrian University of Athens</p>
+
+                </div>
             </div>
-        </div>
-        <div class="container certs row d-flex">
-            <div class="col-3">
-                <img src="./images/icon-uoa.jpeg">
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-uoa.jpeg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Digital Marketing E-learning Course</h3>
+                    <p class="institution">National & Kapodistrian University of Athens</p>
+                </div>
             </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Digital Marketing E-learning Course</h3>
-                <p class="institution">National & Kapodistrian University of Athens</p>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-udemy.png">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Web Design for Web Developers: Build Beautiful Websites</h3>
+                    <p class="institution">Udemy</p>
+                </div>
             </div>
-        </div>
-        <div class="container certs row d-flex text-center">
-            <div class="col-3">
-                <img src="./images/icon-udemy.png">
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-google.jpg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Digital Marketing Camp</h3>
+                    <p class="institution">Google</p>
+                </div>
             </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Web Design for Web Developers: Build Beautiful Websites</h3>
-                <p class="institution">Udemy</p>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-google.jpg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Fundamentals of Digital Marketing</h3>
+                    <p class="institution">Google</p>
+                </div>
             </div>
-        </div>
-        <div class="container certs row d-flex text-center">
-            <div class="col-3">
-                <img src="./images/icon-google.jpg">
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-google.jpg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Google Analytics</h3>
+                    <p class="institution">Google</p>
+                </div>
             </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Digital Marketing Camp</h3>
-                <p class="institution">Google</p>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-michigan.jpg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">Certificate of Proficiency in English</h3>
+                    <p class="institution">University of Michigan</p>
+                </div>
             </div>
-        </div>
-        <div class="container certs row d-flex text-center">
-            <div class="col-3">
-                <img src="./images/icon-google.jpg">
-            </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Fundamentals of Digital Marketing</h3>
-                <p class="institution">Google</p>
-            </div>
-        </div>
-        <div class="container certs row d-flex text-center">
-            <div class="col-3">
-                <img src="./images/icon-google.jpg">
-            </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Google Analytics</h3>
-                <p class="institution">Google</p>
-            </div>
-        </div>
-        <div class="container certs row d-flex text-center">
-            <div class="col-3">
-                <img src="./images/icon-michigan.jpg">
-            </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">Certificate of Proficiency in English</h3>
-                <p class="institution">University of Michigan</p>
-            </div>
-        </div>
-        <div class="container certs row d-flex text-center">
-            <div class="col-3">
-                <img src="./images/icon-cambridge.jpg">
-            </div>
-            <div class="col-9 text-left">
-                <h3 class="certificate">First Certificate in English</h3>
-                <p class="institution">University of Cambridge</p>
+            <div class="container certs row">
+                <div class="col-4">
+                    <img src="./images/icon-cambridge.jpg">
+                </div>
+                <div class="col-8 text-left">
+                    <h3 class="certificate">First Certificate in English</h3>
+                    <p class="institution">University of Cambridge</p>
+                </div>
             </div>
         </div>
     </section>
