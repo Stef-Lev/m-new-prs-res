@@ -9,7 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h2,
+
 h3,
 h4,
 h5 {
@@ -18,10 +18,20 @@ h5 {
 }
 
 section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+h2 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+}
 
 /*---------
  Hero Intro
@@ -224,6 +234,9 @@ Work experience
 /*---------
 Education
 ---------*/
+#edu h2 {
+    color: rgb(5, 73, 98);
+}
 
 #edu {
     background-color: #DBE0E3;
@@ -234,16 +247,25 @@ Education
 /*---------
 Awards
 ---------*/
+#awards h2 {
+    color: rgb(5, 73, 98);
+}
 
 #awards {
     background-color: #DBE0E3;
     position: relative;
 }
 
-
 /*---------
 Skills
 ---------*/
+
+#skills h2 {
+    color: rgb(5, 73, 98);
+}
+#languages h2 {
+    color: rgb(5, 73, 98);
+}
 
 #skills {
     background: url(images/cvbackground.jpg);
@@ -251,6 +273,7 @@ Skills
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    height: 100vh;
 }
 
 .meter {
@@ -277,8 +300,62 @@ Skills
     width: 23%;
 }
 
-div.myskills {
+/* Skills spans filled here*/
+
+#html{
+    width: 48%;
+}
+#css{
+    width: 39%;
+}
+#js{
+    width: 17%;
+}
+#bootstrap{
+    width: 24%;
+}
+#seo{
+    width: 13%;
+}
+#analytics{
+    width: 55%;
+}
+#photoshop{
+    width: 62%;
+}
+#git{
+    width: 33%;
+}
+#office{
+    width: 88%;
+}
+#greek{
+    width: 100%;
+}
+#english{
+    width: 87%;
+}
+#spanish{
+    width: 24%;
+}
+
+
+/* div.myskills {
     margin-bottom: 25px;
+} */
+
+#skillBars h4 {
+    padding: 0;
+    margin: 0;
+}
+#languageBars h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.myskills {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -289,6 +366,10 @@ Certificates
 #certifications {
     background-color: #DBE0E3;
     position: relative;
+    padding-bottom: 50px;
+}
+#certifications h2 {
+    color: rgb(5, 73, 98);
 }
 
 
@@ -297,9 +378,29 @@ Contact
 ---------*/
 
 #contact {
-    background-color: rgb(30, 33, 34);
+    background: url("images/pexels-photo-209692.jpeg") rgb(5, 73, 98);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    position: relative;
+    z-index: -2;
+    color: white;
+    padding-bottom: 100px;
 }
-
+#contact i {
+    margin-right: 12px;
+}
+.contactInfo {
+    font-size: 1.2rem;
+    margin: 10px 10px;
+    padding:5px;
+    color: white;
+}
+.contactInfo a {
+    color: white;
+}
 
 /* Media Queries */
 
