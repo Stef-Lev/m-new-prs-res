@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 body {
@@ -224,7 +224,6 @@ Work experience
 
 #work-exp {
     background-color: #DBE0E3;
-    position: relative;
 }
 
 #work-exp h2 {
@@ -241,7 +240,6 @@ Education
 
 #edu {
     background-color: #DBE0E3;
-    position: relative;
 }
 
 
@@ -254,7 +252,6 @@ Awards
 
 #awards {
     background-color: #DBE0E3;
-    position: relative;
 }
 
 /*---------
@@ -264,6 +261,8 @@ Skills
 #skills h2 {
     color: rgb(5, 73, 98);
 }
+
+
 #languages h2 {
     color: rgb(5, 73, 98);
 }
@@ -274,8 +273,8 @@ Skills
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
 }
+
 
 .meter {
     height: 28px;
@@ -326,7 +325,7 @@ Skills
     width: 33%;
 }
 #office{
-    width: 88%;
+    width: 91%;
 }
 #greek{
     width: 100%;
@@ -339,17 +338,15 @@ Skills
 }
 
 
-/* div.myskills {
-    margin-bottom: 25px;
-} */
-
 #skillBars h4 {
     padding: 0;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 #languageBars h4 {
     padding: 0;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .myskills {
@@ -368,15 +365,25 @@ Certificates
 
 #certifications {
     background-color: #DBE0E3;
-    position: relative;
-    padding-bottom: 50px;
 }
+
+#certifications .certs {
+    margin-bottom: 20px;
+}
+
 #certifications h2 {
     color: rgb(5, 73, 98);
 }
+#certifications h3 {
+    padding: 0;
+}
+
 #certifications img{
     border-radius: 10px;
+    height: 50px;
+    width: 50px;
 }
+
 
 
 /*---------
@@ -437,11 +444,26 @@ Contact
 
 /* Media Queries */
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    * {
+        font-size: 0.96em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .institution {display: none;
 
-@media (min-width: 576px) {}
+    }
 
-@media (min-width: 768px) {}
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+
+}
 
 @media (min-width: 992px) {}
 
