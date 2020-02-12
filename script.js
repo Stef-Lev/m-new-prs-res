@@ -16,7 +16,7 @@ $(function () {
     $('#aboutBtn').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $("#about").offset().top
+            scrollTop: $("#about").offset().top - 40
         }, 600);
     });
 });
@@ -100,6 +100,7 @@ function topArrow() {
 }
 
 //Skill bar filling animation
+
 
 $(".meter > span").each(function () {
     $(this)

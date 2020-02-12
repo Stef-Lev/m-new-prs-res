@@ -477,6 +477,7 @@ Contact
     
 } */
 
+
 /* My custom ScrollBar */
 
 
@@ -494,7 +495,7 @@ Contact
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgb(8, 114, 153); 
-    border-radius: 5px;
+    border-radius: 10px;
   }
   
   /* Handle on hover */
