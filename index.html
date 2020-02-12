@@ -18,7 +18,7 @@
 
 <body>
     <section id="heroIntro">
-        <div class=" jumbotron text-center my-auto py-auto">
+        <div class="jumbotron text-center my-auto py-auto">
             <h1 class="display-4">Stefanos Leventis</h1>
             <hr class="my-4">
             <p class="lead">Junior Front-end Web-app Developer</p>
@@ -54,7 +54,7 @@
                     <a class="nav-link" href="#">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Certifications</a>
+                    <a class="nav-link" href="#certifications">Certifications</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
@@ -152,6 +152,7 @@
                     </ul>
                 </div>
             </div>
+            <hr>
         </div>
     </section>
     <section id="edu" class="container-fluid text-center">
@@ -175,6 +176,7 @@
                     <h3>Dental technician - Bachelor's degree</h3>
                 </div>
             </div>
+            <hr>
         </div>
     </section>
 
@@ -325,6 +327,40 @@
     <!-- This is wrong -->
     <section id="certifications" class="container-fluid text-center">
         <h2>Certifications</h2>
+
+        <div class="container certs row d-flex">
+            <div class="col-md-3">
+                <img src="./images/icon-linkedin.png" height="50px" width="50px">
+            </div>
+            <div class="col-md-9 text-left">
+                <h3 class="certificate">HTML</h3>
+                <p class="institution">Linkedin Skill Assessments</p>
+
+            </div>
+        </div>
+
+        <div class="container certs row d-flex">
+            <div class="col-md-3">
+                <img src="./images/icon-linkedin.png" height="50px" width="50px">
+            </div>
+            <div class="col-md-9 text-left">
+                <h3 class="certificate">Cascading Style Sheets (CSS)</h3>
+                <p class="institution">Linkedin Skill Assessment</p>
+
+            </div>
+        </div>
+
+        <div class="container certs row d-flex">
+            <div class="col-md-3">
+                <img src="./images/icon-linkedin.png" height="50px" width="50px">
+            </div>
+            <div class="col-md-9 text-left">
+                <h3 class="certificate">Microsoft Excel</h3>
+                <p class="institution">Linkedin Skill Assessment</p>
+
+            </div>
+        </div>
+
         <div class="container certs row d-flex">
             <div class="col-md-3">
                 <img src="./images/icon-uoa.jpeg" height="50px" width="50px">
@@ -425,52 +461,34 @@
     <section id="contact" class="container-fluid text-center">
         <div class="container">
             <h2>Contact Info</h2>
-            <!-- <p>Please do not hesitate to contact me if you require further information.</p> -->
-            <div class="container">
-                <!-- <div class="row">
-                <div class="col-md-6">
-                    <a href="tel:+306982649726"><i class="fas fa-phone-square-alt"></i>+306982649726</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="mailto:s.leventis77@gmail.com"><i
-                            class="fas fa-envelope-square"></i>s.leventis77@gmail.com</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="https://www.linkedin.com/in/stefanos-leventis"><i
-                            class="fab fa-linkedin"></i>stefanos-leventis</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="https://github.com/Stef-Lev?tab=repositories"><i class="fab fa-github-square"></i>Github
-                        Page</a>
-                </div>
-            </div> -->
+            <hr class="contact-hr">
+
+            <div class="container contact-links">
+
                 <div class="row d-flex flex-row justify-content-center text-left">
-                    <div class="col-md-4 contactInfo">
-                        <a href="tel:+306982649726"><i class="fas fa-phone-square-alt"></i>+306982649726</a>
+                    <div class="col-md-6 col-lg-3 contactInfo ">
+                        <a href="tel:+306982649726"><i class="fas fa-mobile-alt"></i>+306982649726</a>
                     </div>
-                    <div class="col-md-4 contactInfo">
+                    <div class="col-md-6  col-lg-3 contactInfo ">
                         <a href="https://www.linkedin.com/in/stefanos-leventis"><i
-                                class="fab fa-linkedin"></i>stefanos-leventis</a>
+                                class="fab fa-linkedin-in"></i>stefanos-leventis</a>
                     </div>
                 </div>
                 <div class="row d-flex flex-row justify-content-center text-left">
 
-                    <div class="col-md-4 contactInfo">
-                        <a href="mailto:s.leventis77@gmail.com"><i
-                                class="fas fa-envelope-square"></i>s.leventis77@gmail.com</a>
+                    <div class="col-md-6  col-lg-3 contactInfo ">
+                        <a href="mailto:s.leventis77@gmail.com"><i class="fas fa-at"></i>s.leventis77@gmail.com</a>
                     </div>
-                    <div class="col-md-4 contactInfo">
+                    <div class="col-md-6  col-lg-3 contactInfo ">
                         <a href="https://github.com/Stef-Lev?tab=repositories"><i
-                                class="fab fa-github-square"></i>Stef-Lev@Github</a>
+                                class="fab fa-github"></i>Stef-Lev@Github</a>
                     </div>
                 </div>
             </div>
+            <hr class="contact-hr">
+            <p id="resume-link">Download my resume in pdf <a href="./files/stefanos-leventis-wd.pdf"
+                    download="Stefanos_Leventis_Resume">here</a>
+            </p>
         </div>
     </section>
 
