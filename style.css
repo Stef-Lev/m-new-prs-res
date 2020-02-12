@@ -196,24 +196,19 @@ button.navbar-toggler {
     padding: 12px 0 12px 0;
 }
 
-/* .new-section {
-    height:500px;
-    margin:-500px 0 0;
-  }
-   */
-
 
 /*---------
  About me
 ---------*/
 
 #about {
-    height: 100vh;
     background: url(images/cvbackground.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #about h1 {
