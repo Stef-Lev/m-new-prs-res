@@ -110,3 +110,10 @@ $(".meter > span").each(function () {
             width: $(this).data("origWidth") // or + "%" if fluid
         }, 1200);
 });
+
+//Auto close sandwich menu
+
+// $('.navbar-collapse a').click(function () {
+//     $(".navbar-collapse").collapse('hide');
+
+// });
