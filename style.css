@@ -345,7 +345,6 @@ Skills
     width: 24%;
 }
 
-
 #skillBars h4 {
     padding: 0;
     margin-top: 5px;
@@ -363,6 +362,9 @@ Skills
 }
 #awards {
     padding-bottom: 50px;
+}
+.myskills h4 {
+    text-align: right!important;
 }
 
 
@@ -470,16 +472,22 @@ Contact
     h3 {
         font-size: 1.35rem; ;
     }
+    .myskills h4 {
+        text-align: left!important;
+    }
+
+}
+@media (max-width: 768px) {
+    
+    .myskills h4 {
+        text-align: left!important;
+    }
 
 }
 
-/* @media (min-width: 576px) and (max-width: 768px) {
-    
-} */
 
 
 /* My custom ScrollBar */
-
 
 ::-webkit-scrollbar {
     width: 15px;

@@ -11,77 +11,128 @@ $(function () {
     });
 });
 
-//->About scroll
-$(function () {
+
+$(function abou01() {
     $('#aboutBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#about").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#about").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#about").offset().top - 340
+            }, 600);
+        }
     });
 });
 
 
 //->Work Exp scroll
-$(function () {
+$(function exp01() {
     $('#workExpBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#work-exp").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#work-exp").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#work-exp").offset().top - 340
+            }, 600);
+        }
     });
 });
 
 //->Education scroll
-$(function () {
+$(function edu01() {
     $('#eduBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#edu").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#edu").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#edu").offset().top - 340
+            }, 600);
+        }
     });
 });
 
 //->Awards scroll
-$(function () {
+$(function aw01() {
     $('#awardBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#awards").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#awards").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#awards").offset().top - 340
+            }, 600);
+        }
     });
 });
 
 //->Skills scroll
-$(function () {
+$(function sk01() {
     $('#skillBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#skills").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#skills").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#skills").offset().top - 340
+            }, 600);
+        }
     });
 });
 
 //->Certificates scroll
-$(function () {
+
+$(function cert01() {
     $('#certBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#certifications").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#certifications").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#certifications").offset().top - 340
+            }, 600);
+        }
     });
-});
+})
+
+
 
 //->Contact scroll
-$(function () {
+$(function cont01() {
     $('#contBtn').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#contact").offset().top - 40
-        }, 600);
+        if ($(".icon-bar").is(":hidden")) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#contact").offset().top - 40
+            }, 600);
+        } else {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#contact").offset().top - 340
+            }, 600);
+        }
     });
 });
-
 
 
 // //Arrow button animation
@@ -99,21 +150,22 @@ function topArrow() {
     setTimeout('topArrow()', 1600);
 }
 
-//Skill bar filling animation
+//Skill bar filling animation (Still not functional)
 
 
-$(".meter > span").each(function () {
-    $(this)
-        .data("origWidth", $(this).width())
-        .width(0)
-        .animate({
-            width: $(this).data("origWidth") // or + "%" if fluid
-        }, 1200);
-});
+// $(".meter > span").each(function () {
+//     $(this)
+//         .data("origWidth", $(this).width())
+//         .width(0)
+//         .animate({
+//             width: $(this).data("origWidth") // or + "%" if fluid
+//         }, 1200);
+// });
+
+
+
 
 //Auto close sandwich menu
-
-// $('.navbar-collapse a').click(function () {
-//     $(".navbar-collapse").collapse('hide');
-
-// });
+$('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+});
