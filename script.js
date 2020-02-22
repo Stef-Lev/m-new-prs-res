@@ -23,7 +23,7 @@ $(function abou01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#about").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 });
@@ -41,7 +41,7 @@ $(function exp01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#work-exp").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 });
@@ -58,7 +58,7 @@ $(function edu01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#edu").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 });
@@ -75,7 +75,7 @@ $(function aw01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#awards").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 });
@@ -92,7 +92,7 @@ $(function sk01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#skills").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 });
@@ -110,7 +110,7 @@ $(function cert01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#certifications").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 })
@@ -129,7 +129,7 @@ $(function cont01() {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $("#contact").offset().top - 340
-            }, 600);
+            }, 300);
         }
     });
 });
